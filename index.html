@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CB STORES SALE</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=David+Libre|Playfair+Display" rel="stylesheet">
+</head>
+<body>
+
+  <header> 
+    <!--See if it is better to change the div tags for a nav tag-->
+    <div class="upper-heading"> 
+      <ul>
+        <li><a href="#">tiendas</a></li>
+        <li><a href="#">ayuda</a></li>
+        <li><a href="#">estado del pedido</a></li>
+        <li><a href="#">mi carro</a></li>
+      </ul>
+    </div>
+
+    <div class="lower-heading">      
+      <h1>CB Stores</h1>
+
+      <ul>
+        <li><a href="#">hombre</a></li>
+        <li><a href="#">mujer</a></li>
+        <li><a href="#">niño</a></li>
+        <li><a href="#">skate</a></li>
+        <li><a href="#">snow</a></li>
+        <li><a href="#">sale</a></li>
+        <li><a href="#">blog</a></li>
+      </ul>
+
+      <ul id="social">
+        <li><a href="#">fcbk</a></li>
+        <li><a href="#">twtr</a></li>
+        <li><a href="#">instg</a></li>
+        <li><a href="#">vmeo</a></li>
+      </ul>
+      
+      <input type="text" value="buscar">
+    
+    </div>
+  </header>
+  <main>
+    <nav class="filters">
+      <h2>que estás buscando</h2>
+      <h3>categoría</h3>
+        <input type="checkbox" name="hombre" value="hombre">
+        <label for="hombre">Hombre</label> 
+        <br>
+        <input type="checkbox" name="mujer" value="mujer">
+        <label for="mujer">Mujer</label>
+        <br>
+        <input type="checkbox" name="niño" value="niño">
+        <label for="niño">Niño</label>
+        <br>
+        <input type="checkbox" name="skate" value="skate">
+        <label for="skate">Skate</label>
+        <br>
+        <input type="checkbox" name="sale" value="oferta">
+        <label for="sale">Sale</label>
+      <h3>talla</h3>
+        <input type="checkbox" name="extra-small" value="extra-small">
+        <label for="extra-small">XS</label>
+        <br>
+        <input type="checkbox" name="small" value="small">
+        <label for="small">S</label>
+        <br>
+        <input type="checkbox" name="medium" value="medium"> 
+        <label for="medium">M</label>
+        <br>
+        <input type="checkbox" name="large" value="large">
+        <label for="large">L</label>
+        <br>
+        <input type="checkbox" name="extra-large" value="extra-large">
+        <label for="extra-large">XL</label>
+        <br>
+        <input type="checkbox" name="extra-extra-large" value="extra-extra-large">
+        <label for="extra-extra-large">XXL</label>
+        <br>
+      <h3>color</h3>
+        <label class="color" for="color">elige tu color</label>
+        <br>
+        <input class="color" type="text" name="color">
+        <br>
+      <h3>uso</h3>
+        <input type="checkbox" name="skate" value="skate">
+        <label for="skate">Skate</label>
+        <br>
+        <input type="checkbox" name="casual" value="skate">
+        <label for="casual">Casual</label>   
+        <br>
+      <h3>material</h3>
+        <label for="material">Elige tu material</label>
+        <input class="material" type="text" name="material">
+        <br>
+    </nav>
+    <div class="upper-menu">
+      <select>
+        <option value="20">20</option>
+        <option value="20">25</option>
+        <option value="20">30</option>
+        <option value="20">35</option>
+        <option value="20">40</option>
+      </select>
+      <select>
+        <option value="precio">precio</option>
+        <option value="talla">talla</option>
+        <option value="nombre">nombre</option>
+        <option value="descuento">descuento</option>
+      </select>
+    </div>
+    <section>
+      <!--Add classes later-->
+      <div class="image-gallery">
+        <img src="https://source.unsplash.com/500x340/?shoe" alt="bc shoes model 48 being diasplayed"> 
+        <span class="caption">zapatillas CB modelo 48 - 10.000 CLP</span> <br>
+    
+        <img src="https://source.unsplash.com/500x340/?shoes" alt="bc shoes model 50 being diasplayed"> 
+        <span class="caption">zapatos CB modelo 50 - 13.000 CLP</span>
+      
+        <img src="https://source.unsplash.com/500x340/?foot, wear" alt="bc shoes model 52 being diasplayed"> 
+        <span class="caption">zapatos outdoors CB modelo 52 - 14.000 CLP</span>
+      
+        <img src="https://source.unsplash.com/500x340/?pants" alt="bc pants model one being diasplayed">
+        <span class="caption">pantalones outdoors CB modelo one - 24.000 CLP</span>
+      
+        <img src="https://source.unsplash.com/500x340/?jeans" alt="bc jeans model two being diasplayed">
+        <span class="caption">pantalones y camisa jeans CB modelo two - 25.000 CLP</span>
+      
+        <img src="https://source.unsplash.com/500x340/?dress" alt="bc dress three being diasplayed">  
+        <span class="caption">vestido formal CB modelo three - 46.000 CLP</span>
+      </div>
+    </section>  
+  </main>
+  <footer>
+    <h4>Contáctanos</h4>
+    <p>Suscribete y obtén todas las novedades de CB Stores en tu correo y ofertas exclusivas</p>
+    <form action="send-form.php" method="GET">
+      <label for="email">Ingresa tu correo:</label>
+      <input name="email" type="email" required>
+      <input type="submit" value="enviar">
+    </form>
+  </footer>
+  
+</body>
+</html>

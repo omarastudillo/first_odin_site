@@ -1,0 +1,172 @@
+/* Google Fonts
+font-family: 'David Libre', serif;
+font-family: 'Playfair Display', serif; */
+
+/* Header styles */
+
+body {
+  background-color: #FFFFFF;
+  margin: 0 auto; 
+}
+
+.upper-heading {
+  position: relative; 
+  margin: 0;
+  padding: 0;
+  text-align: right; 
+  background-color: #E0DEDB; 
+  height: 26px; 
+}
+
+.upper-heading ul {
+  list-style-type: none; 
+  margin: 0; 
+  padding: 0px 25px 0px 0px; 
+  font-family: 'Playfair Display', serif; 
+}
+
+.upper-heading ul li {
+  padding: 3px 15px 2px 15px; 
+  display: inline-block; 
+  text-align: center; 
+  margin: 0; 
+  border-left: 1px solid #C9C7C5; 
+  text-transform: uppercase; 
+  font-size: 12px; 
+  color: #3C3B3B; 
+}
+
+.upper-heading ul li:hover {
+  color: #000000; 
+}
+
+.upper-heading ul li a {
+  color: inherit; 
+  text-decoration: none; 
+}
+
+h1 {
+  font-family: 'David Libre', serif; 
+}
+
+.lower-heading {
+  border-bottom: 2px solid #CBCBCB; 
+  height: 70px; 
+}
+
+.lower-heading h1 {
+  display: inline-block; 
+  margin-top: 14px;
+  margin-bottom: 14px; 
+  margin-left: 30px; 
+  margin-right: 10px; 
+  font-size: 44px; 
+}
+
+.lower-heading ul {
+  display: inline;
+  list-style-type: none;
+  text-transform: uppercase; 
+  font-family: 'Playfair Display', serif;
+  margin: 0 auto; 
+  padding-left: 30px; 
+  color: #3C3B3B; 
+}
+
+.lower-heading ul li {
+  display: inline; 
+  padding: 1% 1%; 
+}
+
+.lower-heading input {
+  margin-bottom: 13px; 
+  margin-left: 20px; 
+}
+
+.lower-heading ul li a:hover {
+  color: #B23000; 
+  text-decoration: underline; 
+}
+
+.lower-heading ul li a {
+  color: inherit;
+  text-decoration: none; 
+}
+
+#social li {
+  padding: 0px 4px; 
+}
+
+/* Not a responsive design, keep in mind for future projects to be consistent with the units of measure and to keep them relative (em, rem, %) */
+
+/* Main Styles */
+
+.filters {
+  font-family: 'Playfair Display', serif; 
+  background-color: #D2CCBF; 
+  width: 20%; 
+  position: absolute; 
+  left: 20px; 
+  top: 130px; 
+  display: inline-block; 
+  border-radius: 5px; 
+}
+
+.filters h2 {
+  text-transform: uppercase; 
+  text-align: center; 
+  letter-spacing: 0.2em; 
+  margin-bottom: 40px; 
+}
+
+.filters h3 {
+  text-transform: uppercase; 
+  border-top: 1px solid #58333C; 
+  border-bottom: 1px solid #58333C; 
+  text-align: center; 
+}
+
+.filters input {
+  margin-left: 18px;  
+}
+
+nav .color {
+  padding-left: 10px; 
+  text-transform: capitalize; 
+}
+
+nav .material {
+  margin-bottom: 10px; 
+}
+
+.upper-menu {
+  position: relative; 
+  margin-left: 300px; 
+  margin-right: 100px; 
+  margin-top: 20px; 
+  float: right; 
+  display: block; 
+}
+
+section {
+  margin-left: 300px; 
+  margin-top: 32px; 
+}
+
+.caption {
+  display: block; 
+  padding-left: 150px; 
+  text-transform: uppercase; 
+  font-family: 'Playfair Display', serif; 
+  margin-bottom: 30px; 
+}
+
+img {
+  padding-left: 150px; 
+}
+
+/* Footer style */
+
+footer {
+  border-top: 1px solid black; 
+}
